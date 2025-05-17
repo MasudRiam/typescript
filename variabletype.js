@@ -12,3 +12,10 @@ console.log(userId);
 //boolean
 var isLogin = false;
 isLogin.valueOf();
+//any
+var pc;
+pc.toLocaleUpperCase();
+function possible() {
+    return true;
+}
+pc = possible();

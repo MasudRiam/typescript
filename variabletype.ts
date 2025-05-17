@@ -17,4 +17,15 @@ const isLogin: boolean = false;
 isLogin.valueOf ()
 
 
+//any (Is not good practies. Avoid much possible as much)
+let pc: any;
+pc.toLocaleUpperCase ();
+
+function possible () {
+    return "Hello to world";
+}
+
+pc = possible();
+
+
 export {};
